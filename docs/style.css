@@ -1,0 +1,33 @@
+Iconos diseñados por <a href="https://www.flaticon.es/autores/srip" title="srip">srip</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+
+body{
+ font-family: 'Titillium Web', sans-serif;  
+}
+.navbar{
+    background-color: #000000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    min-height: 100px;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.logo-brand{
+    min-width: 160px;
+    max-width:  180px;
+}
+
+.navbar-toggler{font-size: 30px;}
+.navbar-toggler:focus{outline: none;}
+
+#wall{
+    background-image: url(wallpaper2.jpg);
+    filter: grayscale(100%);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 550px;
+    color: #ffffff;
+}
+#wall:hover{
+    
+}
