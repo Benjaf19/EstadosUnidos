@@ -3,6 +3,10 @@ Iconos diseñados por <a href="https://www.flaticon.es/autores/srip" title="srip
 body{
  font-family: 'Titillium Web', sans-serif;  
 }
+footer{
+ background-color: #9C9C9C;
+}
+
 .navbar{
     background-color: #000000;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
