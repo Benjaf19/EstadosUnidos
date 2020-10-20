@@ -123,6 +123,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
+ filter: grayscale(100%);
+    
   background-image: url("wallpaper2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
