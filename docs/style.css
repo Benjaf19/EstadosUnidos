@@ -4,21 +4,23 @@ Iconos diseĂ±ados por <a href="https://www.flaticon.es/autores/srip" title="sr
 /*Elementos de pagina*/
 body{
  font-family: 'Titillium Web', sans-serif;  
+    
 }
 h1{font-size: 66px; font-weight: 600;line-height: 80px;} 
 h2{font-size: 48px;margin-bottom: 30px;}
 p{font-size: 18px;color: #999999;line-height: 1.8;margin-bottom: 0;}
 a:hover{text-decoration: none;}
-section{padding: 80px 0;}
+section{padding: 50px 0;}
 
 /*Elementos para margenes*/
 .topmargin-xs{margin-top: 15px;}
 .topmargin-sm{margin-top: 30px;}
-.topmargin-lg{margin-top: 60px,}
+.topmargin-lg{margin-top: 60px;}
 
 /*Elementos de barra de navegacion*/
 .navbar{
     background-color: #000000;
+    opacity: 0.9;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
     min-height: 100px;
 }
@@ -35,16 +37,18 @@ ion-icon {color: white;}
 
 /*Elementos de fondo de home*/
 #wall{
-    background-image: url(wallpaper3.png);
-    
-    background-size: cover;
+    background-image: url(wallpaper.png);
+    background-size: cover; 
     padding-top: 220px;
-    min-height: 550px;
+    min-height: 720px;
     color: #ffffff;
     position: relative;
 }
 #wall p{
     color: #ffffff;
+}
+.container{
+    margin-bottom: 0;
 }
 
 /*Herramienta para centrar elementos*/
@@ -52,15 +56,22 @@ ion-icon {color: white;}
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
+    
 }
 
 /*Elementos de tarjetas*/
+#portfolio{
+    background:linear-gradient(-45deg, #002D49,#06456C,#14567F,#1E1F21);
+    background-size: 400%,400%;
+    
+}
 .portfolio-container{
     position: relative;
     overflow: hidden;
     margin: 10px 0;
     max-width: 700px;
     border-radius: 2px;
+    
 }
 .portfolio-container:before{
     content: "";
@@ -69,12 +80,12 @@ ion-icon {color: white;}
     position: absolute;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    background: linear-gradient(rgba(255,0,255,0),rgba(0,0,0,1));
     opacity: 0.4
 }
 .row{
     max-width: 1500px;
-    margin: 0 auto 60px auto; 
+    margin: 0 auto 40px auto; 
 }
 .image-fluid{
     width: 700px;
@@ -108,11 +119,71 @@ ion-icon {color: white;}
 @media (max-width: 767.98px) { ... }
 @media (max-width: 991.98px) { ... }
 @media (max-width: 1199.98px) { ... }
-#portfolio .portfolio-item {
-  max-width: 25rem;
-  margin-left: auto;
-  margin-right: auto;
+
+
+/**Elementos de pagina blog**/
+*{
+    box-sizing: border-box;
 }
+
+#page-empresa{
+    background-image: url(empresablack.png);
+    background-size: 100%;
+    padding-top: 150px;
+    min-height: 70px;
+    color: #ffffff;
+    position: relative;
+    
+}
+#page-empresa-financiero{
+    background-image: url(financieroblack.png);
+    background-size: cover;
+    padding-top: 150px;
+    min-height: 70px;
+    color: #ffffff;
+    position: relative;
+    
+}
+
+.content-page-center{
+    max-width: 800px;
+    margin: 0 auto 0px auto;
+    text-align: center;
+    
+}
+.info{
+    width: 100%;
+    background:linear-gradient(-45deg, #002D49,#06456C,#14567F,#1E1F21);
+    background-size: 400%,400%;
+    
+}
+.left-column{
+    float: left;
+    width: 75%;
+    
+}
+.right-column{
+    width: 20%;
+    margin-left: 4%;
+    float: right;
+}
+.card{
+    padding: 17px;
+    opacity: 92%;
+    background-color: ##FCFCFC;
+    border-color: #ffffff;
+    margin-top: 10px;
+}
+.card img{
+    width: 100%;
+}
+.left-column .card img{
+    margin-bottom:15px;
+}
+.right-column .card img{
+    margin-bottom:15px;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
