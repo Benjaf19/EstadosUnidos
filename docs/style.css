@@ -19,7 +19,18 @@ section{padding: 50px 0;}
 .topmargin-xs{margin-top: 15px;}
 .topmargin-sm{margin-top: 30px;}
 .topmargin-lg{margin-top: 60px;}
-
+/*Hipervinculos*/
+a{
+	color:white;
+}
+a:hover{
+	color: gray;
+}
+/*Pie de pagina*/
+footer{
+	background-color: #3f3f3f;
+	color: white;
+}
 /*Elementos de barra de navegacion*/
 .navbar{
     background-color: #000000;
@@ -71,8 +82,8 @@ ion-icon {color: white;}
 .portfolio-container{
     position: relative;
     overflow: hidden;
-    margin: 100px 0;
-    max-width: 500px;
+    margin: 15px 0;
+    max-width: 600px;
     border-radius: 2px;
     
 }
@@ -88,7 +99,7 @@ ion-icon {color: white;}
 }
 .row{
     max-width: 1500px;
-    margin: 0 auto 40px auto; 
+    margin: 100px; 
 }
 .image-fluid{
     width: 700px;
