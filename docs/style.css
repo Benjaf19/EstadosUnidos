@@ -194,6 +194,8 @@ ion-icon {color: white;}
     background-color: ##FCFCFC;
     border-color: #ffffff;
     margin-top: 10px;
+	text-align: justify;
+	color: #000000;
 }
 .card img{
     width: 100%;
