@@ -26,10 +26,10 @@ a{
 a:hover{
 	color: gray;
 }
-/*Cuerpo de la info*/
+/*Cuerpo de la info
 #entornoInfo{
 	text-align: justify
-}
+}*/
 /*Pie de pagina*/
 th, td{
 width: 25%;
@@ -204,8 +204,7 @@ ion-icon {color: white;}
     background-color: ##FCFCFC;
     border-color: #ffffff;
     margin-top: 10px;
-	text-align: justify;
-	color: #000000;
+	
 }
 .card img{
     width: 100%;
