@@ -26,6 +26,10 @@ a{
 a:hover{
 	color: gray;
 }
+/*Cuerpo de la info*/
+#entornoInfo{
+	text-align: justify
+}
 /*Pie de pagina*/
 th, td{
 width: 25%;
