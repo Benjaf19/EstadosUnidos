@@ -165,6 +165,14 @@ ion-icon {color: white;}
     position: relative;
     
 }
+#page-inversion-educacion{
+ background-image: url(inverfinan.jpg);
+    background-size: 100%;
+    padding-top: 150px;
+    min-height: 70px;
+    color: #ffffff;
+    position: relative;
+}
 #page-empresa-financiero{
     background-image: url(financieroblack.png);
     background-size: cover;
